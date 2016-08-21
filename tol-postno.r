@@ -6,13 +6,15 @@
 # postinumeron perusteella Y-tunnuksia alueelta, jotka on rekisteröity 1.1.2012 jälkeen.
 # Hakee korkeintaan 1000 toimialaluokitustietoa.
 #
+# Ohjelma hakee ensin rajapinnasta tietyn postinumeron Y-tunnukset, ja sen jälkeen hakee
+# näille Y-tunnuksille toimialaluokkatiedon.
+#
 # Lähteet:
 # http://avoindata.prh.fi/
 # http://www.stat.fi/meta/luokitukset/toimiala/001-2008/
 #
 # Kehitettävää:
-# Käyttäjän syötteen tarkistus, toimialaluokituksiin tekstimuotoisten selitteiden lisäys,
-# alkaneiden rekisteröintien alkamispäivämäärän.
+# Alkaneiden rekisteröintien alkamispäivämäärän muokkaus esim. inputilla.
 #
 
 # Vaatii pakkaukset RJSONIO ja RCurl JSON-tietojen hakuun, XML toimialaluokitusten tietojen hakuun
